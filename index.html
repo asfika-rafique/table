@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Von Neumann and Harvard Computer Architecture</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table border="1">
+	<thead>
+		<b>
+			<tr><td></td>
+				<td><img src="Von_Neumann_Architecture.svg.png" height="150px" width="200px"</td>
+				<td><img src="362px-Harvard_architecture.svg.png" height="200px" width="200px"</td>
+			</tr>
+			<tr>
+			<th>Parameters</th>
+			<th>Von Neumann Architecture</th>
+			<th>Harvard Computer Architecture</th>
+		</tr></b>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Defination</td>
+			<td>The Von Neumann Architecture is an ancient type of computer architecture that follows the concept of a stored-program computer.</td>
+			<td>Harvard Architecture is a modern type of computer architecture that follows the concept of the relay-based model by Harvard Mark I.</td>
+		</tr>
+		<tr>
+			<td>Physical Address</td>
+			<td>It uses one single physical address for accessing and storing both data and instructions.</td>
+			<td>It uses two separate physical addresses for storing and accessing both instructions and data</td>
+		</tr>
+		<tr>
+			<td>Buses (Signal Paths)</td>
+			<td>One common signal path (bus) helps in the transfer of both instruction and data.</td>
+			<td>It uses separate buses for the transfer of both data and instructions.</td>
+		</tr>
+		<tr>
+			<td>Number of Cycles</td>
+			<td>It requires two clock cycles for executing a single instruction.</td>
+			<td>It executes any instruction using only one single cycle.</td>
+		</tr>
+		<tr>
+			<td>Cost</td>
+			<td>It is comparatively cheaper in cost than Harvard Architecture.</td>
+			<td>It is comparatively more expensive than the Von Neumann Architecture.
+			</td>
+		</tr>
+		<tr>
+			<td>Access to CPU</td>
+			<td>The CPU is not able to read/write data and access instructions at the same time.</td>
+			<td>The CPU can easily read/write data as well as access the instructions at any given time.</td>
+		</tr>
+		<tr>
+			<td>Uses</td>
+			<td>This method comes to play in the case of small computers and personal computers.</td>
+			<td>This method comes to play in the case of small computers and personal computers.</td>
+		</tr>
+		<tr>
+			<td>Requirement of Hardware</td>
+			<td>As compared to Harvard Architecture, Von Neumann Architecture requires lesser architecture. It is because it only needs to reach one common memory.</td>
+			<td>This one requires more hardware. It is because it requires separate sets of data as well as address buses for individual memory.</td>
+		</tr>
+		<tr>
+			<td>Requirement of Space</td>
+			<td>This architecture basically requires less space</td>
+			<td>This architecture comparatively requires more space.</td>
+		</tr>
+		<tr>
+			<td>Usage of Space</td>
+			<td>This architecture does not waste any space. It is because the instruction memory can utilize the left space of the data memory. It can also happen vice-versa.</td>
+			<td>This type of architecture can result in space wastage. It is because the instruction memory cannot utilize the leftover space in the data memory. It also cannot happen vice-versa.</td>
+		</tr>
+		<tr>
+			<td>Execution Speed</td>
+			<td>The speed of execution of the Von Neumann Architecture is comparatively slower. It is because it is not capable of fetching the instructions and data both at the same time.</td>
+			<td>The overall speed of execution of Harvard Architecture is comparatively faster. It is because the processor, in this case, is capable of fetching both instructions and data at the very same time.</td>
+		</tr>
+		<tr>
+			<td>Controlling</td>
+			<td>The process of controlling becomes comparatively simpler with this architecture. It is because it fetches either instructions or data at any given time.</td>
+			<td>The process of controlling becomes comparatively complex with this architecture. It is because it basically fetches both instructions and data simultaneously at the very same time.</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
